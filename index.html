@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="heading">LIBRARY</div>
+    <table>
+    </table>
+    <button class="newBook">NEW BOOK</button>
+    <form action="">
+        <div>
+            <label for="title">Title </label><br>
+            <input type="text" id="title" class="title" required>
+        </div>
+        <div>
+            <label for="author">Author </label><br>
+            <input type="text" id="author" class='author'required>
+        </div>
+        <div>
+            <label for="number">Pages </label><br>
+            <input type="number" id="number" class="pages" min="1" required>
+        </div>
+        <div>
+            <input type="checkbox" id="status" class="status">
+            <label for="status">I have finished reading the book </label>
+        </div>
+        <div>
+            <input type="submit" class="submit">
+        </div>
+    </form>
+</body>
+</html>
